@@ -1,12 +1,10 @@
-use core::traits::Into;
 use core::option::OptionTrait;
+use core::serde::Serde;
 use core::traits::TryInto;
 use snforge_std::{declare, ContractClassTrait, start_cheat_caller_address};
-use starknet_nft::IERC721DispatcherTrait;
-use starknet_nft::IERC721Dispatcher;
 use starknet::ContractAddress;
 
-use core::serde::Serde;
+use starknet_nft::ERC721::{IERC721DispatcherTrait, IERC721Dispatcher};
 
 fn deploy_contract(name: @felt252, symbol: @felt252) -> (IERC721Dispatcher, ContractAddress) {
     let contract = declare("ERC721").unwrap();
