@@ -1,0 +1,4 @@
+[sncast.myprofile]
+account = "~/.starkli-wallets/deployer/account.json"
+keystore = "~/.starkli-wallets/deployer/keystore.json"
+url = "https://free-rpc.nethermind.io/sepolia-juno/"
