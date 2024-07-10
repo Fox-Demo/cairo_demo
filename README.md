@@ -23,10 +23,10 @@ snforge test
 
 Two method to create account:
 
-1. starkli
-2. sncast account create
+1. `starkli`
+2. `sncast` account create
 
-In this case, use Starkli to create account and import account into sncast
+In this case, use `Starkli` to create account and import account into `sncast`
 
 Ref: [Starknet Foundry: Creating And Deploying Accounts](https://foundry-rs.github.io/starknet-foundry/starknet/account.html)
 
