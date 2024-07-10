@@ -1,2 +1,2 @@
 pub mod ERC721;
-pub mod OZToken;
+pub mod ERC20;
