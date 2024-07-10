@@ -54,7 +54,7 @@ sncast \
 --url https://free-rpc.nethermind.io/sepolia-juno \
 --keystore ~/.starkli-wallets/deployer/keystore.json \
 --account ~/.starkli-wallets/deployer/account.json \
-deploy\
+deploy \
 --class-hash <class_hash generated from previous `declare` command> \
 --constructor-calldata <serialized constructor calldata (felt252 e.g. 0x42 0x41)>
 ```
